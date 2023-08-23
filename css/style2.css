@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Bahij TheSansArabic';
+    font-family: 'Cairo', sans-serif;
+
+}
+.f {
+  font-size: 12px;
+}
+.hOne{
+    font-size: 20px;
+    margin-top: 24px;
+}
+.b1{
+    width: 49.9%;
+    height: 48px;
+    color: white;
+    background-color: #8AB23B;
+    border: none;
+    
+}
+.b2{
+    width: 49%;
+    height: 48px;
+    border: none;
+}
+/* .total {
+    display: flex;
+    justify-content: center;
+
+} */
+.drop-area {
+    width: 70px;
+    height: 70px;
+    border: 2px dashed #ccc;
+    text-align: center;
+  
+    border-radius:4px ;
+    cursor: pointer;
+    
+  }
+  .drop-area img{
+    margin-top:20px ;
+  }
+  
+  .image-container {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .total{
+    width: 100%;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+  }
+  .total .image-container{
+    width: 279px;
+  height: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    left: 39%; */
+    
+    
+  }
+  .area textarea{
+    height: 118px;
+    border-radius: 8px;
+  }
+  .add p{
+    position: absolute;
+    padding: 10px;
+    top: 227px;
+    width: 100%;
+    background-color: #fff;
+  }
+  iframe{
+    width: 100%;
+    height: 262px;
+  }
+  .add  img{
+    position: absolute;
+    left: 0px ;
+    bottom: -25px;
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+height: 55px;
+  }
+
+  .custom-select {
+    margin-left: 10px;
+    padding: 8px;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    position: absolute;
+    right: 80%;
+  }
+
+  .flag-icon {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  .flsg{
+    position: absolute;
+    right: 90%;
+  }
+.files {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.files p{
+  color: #000;
+text-align: right;
+/* font-family: Bahij TheSansArabic; */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.07px;
+}
+/* .files input{
+  width: 115px;
+  overflow: hidden;
+  border: none;
+  border: dashed;
+} */
+
+
+.custom-file-input::-webkit-file-upload-button {
+  display: none;
+}
+.custom-file-input::before {
+  content: 'اختيار ملف';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px dashed #999;
+  border-radius: 3px;
+  width: 115px;
+height: 35px;
+text-align: center;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  background: var(--graylight-2, #F8F8F8);
+
+  
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+} 
+.files img{
+  position: absolute;
+  
+    left: 31%;
+    top: 9px;
+}
+.final{
+  display: flex;
+  align-items: center;
+}
+  .final p{
+    font-size: 12px;
+    margin-top: -5px;
+  }
+  .final span{
+    font-weight: bold;
+  }
+  .final input{
+    margin-top: -20px;
+    width: 20px;
+height: 20px;
+    margin-left: 8px;
+  }
+  .final input{
+    background-color: #8AB23B;
+  }
+  .bf{
+    height: 55px;
+    background-color: #8AB23B;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+  }
+  .pone{
+    border: none;
+    background: var(--graylight-2, #F8F8F8);
+    padding: 0 10px;
+  }
+  .pone2{
+    border: none;
+  }
+  
+  .car .p11 {
+    border: none;
+    border-radius: 8px;
+    width: 179px;
+    height: 55px;
+    color: #000;
+    background: #F8F8F8;
+    transition: background 0.3s ease;
+  }
+  .car .p22 {
+    border: none;
+    border-radius: 8px;
+    width: 179px;
+    height: 55px;
+    color: #000;
+    background: #F8F8F8;
+    transition: background 0.3s ease;
+  }
+  
+  .car .p11.clicked {
+    background: #F8F8F8;
+  }
+  
+  .car .p22.clicked {
+    background: #44515E;
+    color: #fff;
+  }
+  .car .p11.clicked {
+    background: #44515E;
+    color: #fff;
+  }
+  .car {
+    margin-top: 24px;
+  }

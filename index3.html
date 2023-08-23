@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب تسجيل كمزود خدمة</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Krub:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body dir="rtl">
+    <div class="container">
+        <h1 class="hOne text-center bg-white">كُن شريك<img src="imges/star.png" alt=""></h1>
+        <div class="btn col-lg-12 d-flex">
+            <div class="b1 w-100 justify-content-center">
+                <button class="b1 " style="background-color: #fff; color: black;"><a href="index22.html" style="color: black;text-decoration: none;">طلب تسجيل كمزود خدمة</a></button>
+                <button class="b2" style="background-color: #8AB23B; color: white;">طلب تسجيل كمندوب</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="box">
+                    <p class="text-end mt-3">الاسم كاملا</p>
+                    <input type="text" placeholder="يرجى ادخال الاسم كاملا" class="pone f w-100 " style="height: 55px;" >
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mt-3 col-sm-12">
+                <p>رقم الجوال</p>
+                <div class="input-container  position-relative">
+                    <input type="number" class="pone f custom-input" placeholder="xx xxx xxxx">
+                    <!-- <select class="custom-select">
+                        <option value="us"><img src="imges/Flags.png" alt=""></option>
+                        <option value="uk">🇬🇧 المملكة المتحدة</option>
+                        <option value="ca">🇨🇦 كندا</option>
+                        
+                    </select> -->
+                    <img src="imges/alm.png" class="flsg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="box">
+                    <p class="text-end mt-3">اسم المطعم</p>
+                    <input type="text" placeholder="يرجى ادخال اسم المطعم" class="pone f w-100 " style="height: 55px;" >
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+                <p>المدينة</p>
+                <div class="input-container  position-relative">
+                    <input type="number" class=" pone f  custom-input" style="font-size: 12px;" placeholder="يرجى اختيار المدينة">
+                    <!-- <select class="custom-select">
+                        <option value="us"><img src="imges/Flags.png" alt=""></option>
+                        <option value="uk">🇬🇧 المملكة المتحدة</option>
+                        <option value="ca">🇨🇦 كندا</option>
+                    </select> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="car">
+            <p>نوع المركبة</p>
+            <button class="p11">سيارة</button>
+            <button class="p22">دراجة</button>
+        </div>
+        <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="files w-100 position-relative">
+                <p>صورة رخصة القيادة </p>
+                <input class="  custom-file-input " type="file" value="" >
+                <img src="imges/octicon_upload-16.png" alt="">
+
+              </div>
+          
+             
+        </div>  
+          <div class="col-lg-6 col-md-6 col-sm-12">
+                 <div class="files w-100     position-relative">
+                <p> صورة استمارة المركبة </p>
+                <input class="custom-file-input "  type="file" value="" >
+                <img src="imges/octicon_upload-16.png" alt="">
+
+              </div>
+              </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="container">
+        <div class="final">
+             <input type="checkbox" >
+             <p> أوافق على   <span>شروط الاستخدام </span> و <span>سياسة الخصوصية</span></p>
+        </div>
+        <button class="w-100 bf f mb-5" type="submit">تقديم طلب اشتراك كمزود</button>
+       
+    </div>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script>
+        const p11Button = document.querySelector('.car .p11');
+        const p22Button = document.querySelector('.car .p22');
+
+        p11Button.addEventListener('click', function() {
+            p11Button.classList.toggle('clicked');
+            p22Button.classList.remove('clicked');
+        });
+
+        p22Button.addEventListener('click', function() {
+            p22Button.classList.toggle('clicked');
+            p11Button.classList.remove('clicked');
+        });
+    </script>
+</body>
+</html>

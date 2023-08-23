@@ -1,0 +1,521 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Bahij TheSansArabic';
+    font-family: 'Cairo', sans-serif;
+
+}
+/* body{
+  background: url(../imges/Ellipse\ 1112.png) no-repeat;
+} */
+/* تعديلات على الأزرار في الهيدر */
+.navbar {
+  background-color: #FFF;
+}
+
+.navbar .navbar-nav {
+  margin-right: 100px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+  font-size: 14px;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: #8AB23B;
+}
+
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: #8AB23B;
+}
+
+.navbar-brand {
+  width: 63px;
+  height: 73px;
+  left: calc(50% - 63px/2 + 476.5px);
+  top: calc(50% - 73px/2 - 1233px);
+}
+
+.navbar button {
+  background-color: #8AB23B;
+  color: #fff;
+  width: 135px;
+  height: 40px;
+  left: 170px;
+  top: 40px;
+}
+
+.navbar button:hover {
+  background-color: #fff;
+  color: #8AB23B;
+  border: solid 1px #8AB23B;
+  box-shadow: 0 0 0 0;
+}
+nav{
+  width: 100%;
+  background-color: #FFF;
+}
+
+  .img{
+
+  }
+  header{
+    /* position: relative; */
+  }
+.img img{
+  position: absolute;
+}
+.pc1{
+  position: absolute;
+  left: 171px;
+  top: 196px;
+  /* width: 240px;
+  height: ; */
+  z-index: -1;
+
+}
+.pc2{
+  left: 0px;
+  top: 450px;
+  z-index: 1;
+  /* width: 240px; */
+}
+/* Home 1 */
+
+/* meal details 1 */
+
+
+/* Ellipse 1112 */
+.pc3{
+  position: absolute;
+  left: 0;
+  z-index: -30;
+  
+  top: 250px;
+}
+.text .box h1{
+  font-size: 32px;
+  font-weight: bold;
+}
+.text .box p{
+  font-size: 16px;
+  color: #44515E;
+  
+}
+.text{
+  padding-top: 233px;
+  z-index: 100000;
+}
+section .container{
+  width: 80%;
+  margin: auto;
+}
+header{
+  width: 80%;
+  margin: auto;
+}
+nav{
+  width: 80%;
+  margin: auto;
+}
+/* section{
+  background-color: #8AB23B;
+  color: #fff;
+} */
+.textTow{
+  padding-top:236px ;
+}
+.textTow h2{
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+}
+.textTow ol li{
+  font-size: 16px;
+}
+.textTow h2 ::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #8AB23B
+  ;
+  right:0 ;
+  z-index: -1;
+  top: 7px;
+}
+section .container h4{
+  position: relative;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+section .container h4::before{
+  content: "";
+  position: absolute;
+  height: 4PX;
+  border-radius: 20px;
+  width: 52px;
+  background-color: #8AB23B;
+  left: 45%;
+  bottom: 0px;
+
+}
+section .container p{
+  font-size: 14;
+}
+footer .inputs{
+  width: 416px;
+height: 526px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #FBFBFB;
+}
+footer .inputs .boxInputs{
+  width: 416px;
+  height: 526px;
+  background-color: #FBFBFB;
+}
+footer .inputs input{
+  width: 87%;
+  height: 48px;
+  margin: 15px 0;
+  border: none;
+  padding: 14px;
+}
+footer .inputs input:focus{
+  border: none;
+  
+}
+ ::placeholder{
+  font-size: 14px;
+}
+footer .inputs textarea{
+  width: 368px;
+  height: 194px;
+  border: none;
+
+  padding: 14px;
+}
+footer .inputs button{
+  display: block;
+  width: 83px;
+  height: 48px;
+  margin-top: 32px;
+  border-radius: 24px;
+  background-color: #8AB23B;
+  color: white;
+  border: none;
+}
+footer .container{
+  /* width: 80%;
+  margin: auto;
+  padding-top: 150px; */
+} 
+footer .inputs h4{
+  margin-bottom: 25px;
+  position: relative;
+}
+footer .inputs h4::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #8AB23B
+  ;
+  right:0 ;
+  z-index: -1;
+  top: 7px;
+}
+footer img{
+  position: absolute;
+  left:  0;
+  top: 0;
+  z-index: -10;
+}
+footer{
+  position: relative;
+  width: 100%;
+}
+.footer {
+  margin-top: 80px;
+  height: 236px;
+  background-color: #EEF0F1;
+}
+.footer img{
+  margin-top: 32px;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+  /* width: 1000px; */
+  justify-content: center;
+}
+.footer ul li {
+  margin: 27px;
+  font-size: 14px;
+  
+}
+.footer p{
+  height: 40px;
+  background-color: #000;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hOne{
+ font-size: 20px;
+ margin-top: 24px;
+ font-weight: bold;
+ 
+}
+.btn button{
+ 
+  width: 525px;
+  height: 48px;
+  border: none;
+}
+.b2{
+  background-color: #8AB23B;
+  color: #fff;
+  text-align: center;
+}
+.drop-area {
+  width: 70px;
+  height: 70px;
+  border: 2px dashed #ccc;
+  text-align: center;
+
+  border-radius:4px ;
+  cursor: pointer;
+  
+}
+.drop-area img{
+  margin-top:20px ;
+}
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.total{
+  position: relative;
+  /* display: block; */
+}
+.total .image-container.drop-area{
+  /* position: absolute;
+  top: 45%;
+  left: 45%; */
+  
+ 
+}
+.total{
+  width: 100%;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+}
+.total .image-container{
+  width: 279px;
+height: 129px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute;
+  left: 39%; */
+  
+  
+}
+/* .bodyTow{
+  width: 85%;
+  margin: auto;
+} */
+.container1{
+  display: flex;
+  flex-direction: column;
+}
+.info input{
+  width: 500px;
+height: 55px;
+  border: none;
+  background-color: #F8F8F8;
+}
+.info input [type="text"]::placeholder{
+  
+}
+.info {
+  display: flex;
+  justify-content: center;
+  /* margin-right: 100PX; */
+}
+.info .p2{
+  /* margin-right: 40px; */
+
+}
+.info .p1{
+  /* margin-right: 40px; */
+
+}
+input[type="text"]::placeholder {
+  font-size: 10px;
+  margin-right: 60px;
+}
+.area{
+  /* padding-right: 123px; */
+  /* margin-right: 226px; */
+  width: 90%;
+  margin: auto;
+
+}
+.area p{
+  /* text-align: start; */
+  
+}
+.area textarea{
+  width: 80%;
+height: 118px;
+  margin-right: 10%;
+}
+.navbar button a{
+  text-decoration: none;
+  color: #FFF;
+}
+.navbar button a:hover{
+  color: #8AB23B;
+  /* background-color: #FFF  ; */
+}
+@media screen and (min-width: 992px){
+ .text{
+  color: black;
+ }
+ .area{
+  /* padding-right: 123px; */
+  /* margin-right: 220px; */
+  /* width: 100%; */
+  /* width: 80%; */
+  margin: auto;
+
+}
+ .pc1{
+  display: flex;
+}
+ .pc2{
+  display: flex;
+
+ }
+
+}
+@media (min-width: 350px) and (max-width: 800px){
+  .pc1{
+    display: none;
+  }
+  .area textarea{
+    width: 100%;
+  height: 118px;
+    margin-right: 0%;
+  }
+  .pc2{
+    display: none;
+
+  }
+  .pc3{
+    width: 70%;
+
+  }
+  .text{
+    color: black;
+   }
+
+}
+@media screen and (min-width: 400px){
+  /* .pc1{
+  display: none;
+  }
+  .pc3{
+    width: 60%;
+  } */
+ 
+}
+/* تعريف حجم الخط باستخدام vw (عرض الشاشة) */
+/* body, h1, h2, h3, h4, p, li, input, textarea, button {
+  font-size: 1.5vw;  */
+
+/* تعديل حجم الخط باستخدام وسائط الاستجابة */
+@media (max-width: 768px) {
+  /* لأجهزة بعرض شاشة أقل من 768 بيكسل */
+  body, h1, h2, h3, h4, p, li, input, textarea, button {
+      font-size: 2.5vw; /* تعديل القيمة حسب الحاجة */
+  }
+}
+/* استهدف شاشات بعرض أقل من 768 بيكسل */
+@media (max-width: 768px) {
+  /* تصغير حجم الخط */
+  body, h1, h2, h3, h4, p, li, input, textarea, button {
+      font-size: 16px;
+  }
+
+  /* تعديل أبعاد الصور للحفاظ على التناسب */
+  .img img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* ضبط توزيع العناصر في الهيدر والفوتر */
+  .navbar-collapse {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  /* تعديل ارتفاع الصور في الهيدر */
+  .img {
+      height: auto;
+  }
+
+  /* تعديل تنسيق النص في الهيدر والفوتر */
+  .navbar-nav {
+      text-align: center;
+      margin-top: 1rem;
+  }
+
+  /* تعديل تنسيق مربعات الإدخال */
+  .boxInputs input, .boxInputs textarea {
+      width: 100%;
+  }
+}
+
+/* تصغير الشعار في الفوتر لشاشات صغيرة */
+@media (max-width: 576px) {
+  .footer img {
+      max-width: 80px;
+  }
+}
+
+
